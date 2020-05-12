@@ -1,0 +1,19 @@
+{{ define "Show" }}
+  {{ template "Header" }}
+    {{ template "Menu"  }}
+
+    <ul><li><p>--------VIEW</p></li></ul>
+
+    <ul>
+
+      <li><a href="#"><p>QUIZ APP View Page</p></a></li>
+
+      <li><p>Register --> {{ .Id }}</p></li>
+      <li><p>Name --> {{ .Name }}</p></li>
+      <li><p>Surname --> {{ .Surname }}</p></li>
+      <li><p><a href="/edit?id={{ .Id }}">Edit</a></p></li>
+
+    </ul>
+  
+  {{ template "Footer" }}
+{{ end }}

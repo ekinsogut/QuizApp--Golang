@@ -1,0 +1,24 @@
+{{ define "Start" }}
+  {{ template "Header" }}
+
+      <script type="text/javascript">function trueAns(){alert("True Answer!");}</script>
+
+      <ul>
+
+      <form method="POST" action="/">
+      <li><a><p>{{ .ID }}</p></a></li>
+      <li><a><p>{{ .Question }}</p></a></li>
+      <br>
+      <br>
+      <br>
+      <li><a><p><input type="radio" id="FalseAnswer1" name="answer">a){{ .FalseAnswer1}}</p></a></li><br>
+      <li><a><p><input type="radio"  onclick="trueAns();" name="answer">b){{ .TrueAnswer}}</p></a></li><br>
+      <li><a><p><input type="radio" id="FalseAnswer2" name="answer">c){{ .FalseAnswer2}}</p></a><li><br>
+      </form>
+
+      </ul>
+
+      
+
+  {{ template "Footer" }}
+{{ end }}

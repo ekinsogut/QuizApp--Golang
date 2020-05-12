@@ -1,0 +1,17 @@
+{{ define "User" }}
+  {{ template "Header" }}
+
+    <ul>
+
+    <li><a href="#"><p>QUIZ APP User Page</p></a></li>
+
+    <form method="POST" action="login">
+    <li><p><label> User Name <br> </label><input type="text" name="userrname" /></p></li>
+    <li><p><label> User Surname <br> </label><input type="text" name="userrsurname" /></p></li>
+    <li><p><input type="submit" value="Go!" /></p></li>
+    </form>
+
+    </ul>
+
+  {{ template "Footer" }}
+{{ end }}

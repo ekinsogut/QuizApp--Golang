@@ -1,0 +1,14 @@
+{{ define "Result" }}
+  {{ template "Header" }}
+
+      <ul>
+
+      <li><a><p>{{ .ID }}</p></a></li>
+      <li><a><p>{{ .Question }}</p></a></li>
+      <li><a><p>{{ .TrueAnswer }}</p></a></li>
+
+      </ul>
+
+
+  {{ template "Footer" }}
+{{ end }}

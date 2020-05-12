@@ -1,0 +1,35 @@
+{{ define "Index" }}
+  {{ template "Header" }}
+    {{ template "Menu"  }}
+
+    <ul><li><p>--------USERS</p></li></ul>
+
+    <ul>
+      <li>
+      <a><p>ID --></p></a>
+      <a><p>Name --></p></a>
+      <a><p>Surname --></p></a>
+      <a><p>Operations --></p></a>
+      </li>
+
+    {{ range . }}
+
+      <li>
+      <a><p>{{ .Id }}</p></a>
+      <a><p>{{ .Name }}</p></a>
+      <a><p>{{ .Surname }}</p></a>
+      <a href="/show?id={{ .Id }}"><p>View</p></a>
+      <a href="/edit?id={{ .Id }}"><p>Edit</p></a>
+      <a href="/delete?id={{ .Id }}"><p>Delete</p></a>
+      </li>
+
+    {{ end }}
+
+    </ul>
+    
+
+    <br>
+
+    <ul><li><a href="/"><p>Go Back!</p></a></li></ul>
+  {{ template "Footer" }}
+{{ end }}

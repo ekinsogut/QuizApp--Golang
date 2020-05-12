@@ -1,0 +1,102 @@
+[{
+        "ID": 1,
+        "Question": "Fatih Sultan Mehmet’in babası kimdir?",
+        "TrueAnswer": "II. Murat",
+        "FalseAnswer1": "I. Mehmet",
+        "FalseAnswer2": "Yıldırım Beyazıt"
+
+    },
+    {
+        "ID": 2,
+        "Question": "Magna Carta hangi ülkenin kralıyla yapılmıs bir sözlesmedir?",
+        "TrueAnswer": "Ingiltere",
+        "FalseAnswer1": "Ispanya",
+        "FalseAnswer2": "Fransa"
+    },
+    {
+        "ID": 3,
+        "Question": "Hangisi periyodik tabloda bulunan bir element degildir?",
+        "TrueAnswer": "Su",
+        "FalseAnswer1": "Azot",
+        "FalseAnswer2": "Oksijen"
+    },
+    {
+        "ID": 4,
+        "Question": "Hangisi bir dogal sayıdır?",
+        "TrueAnswer": "0",
+        "FalseAnswer1": "2.5",
+        "FalseAnswer2": "-1"
+    },
+    {
+        "ID": 5,
+        "Question": "Hangisi tarihteki Türk devletlerinden biri degildir?",
+        "TrueAnswer": "Emevi Devleti",
+        "FalseAnswer1": "Avar Kaganlıgı",
+        "FalseAnswer2": "Hun Imparatorlugu"
+    },
+    {
+        "ID": 6,
+        "Question": "Galatasaray hangi yıl UEFA kupasını almıstır?",
+        "TrueAnswer": "2000",
+        "FalseAnswer1": "2001",
+        "FalseAnswer2": "2002"
+    },
+    {
+        "ID": 7,
+        "Question": "Kıbrıs Barıs harekatı hangi tarihte gerçeklesmistir?",
+        "TrueAnswer": "1974",
+        "FalseAnswer1": "1972",
+        "FalseAnswer2": "1970"
+    },
+    {
+        "ID": 8,
+        "Question": "Hangi ülke Asya kıtasındadır?",
+        "TrueAnswer": "Singapur",
+        "FalseAnswer1": "Madagaskar",
+        "FalseAnswer2": "Peru"
+    },
+    {
+        "ID": 9,
+        "Question": "ABD baskanlarından John Fitzgerald Kennedy’e suikast düzenleyerek öldüren kimdir?",
+        "TrueAnswer": "Lee Harvey Oswald",
+        "FalseAnswer1": "Jack Ruby",
+        "FalseAnswer2": "Clay Shaw"
+    },
+    {
+        "ID": 10,
+        "Question": "Hangi Anadolu takımı Türkiye Süper Liginde sampiyon olmustur?",
+        "TrueAnswer": "BursaSpor",
+        "FalseAnswer1": "EskiSehirSpor",
+        "FalseAnswer2": "KocaeliSpor"
+
+    },
+    {
+        "ID": 11,
+        "Question": "Hangisi Kanuni Sultan Süleyman’ın esidir?",
+        "TrueAnswer": "Hürrem Sultan",
+        "FalseAnswer1": "Kösem Sultan",
+        "FalseAnswer2": "Safiye Sultan"
+    },
+    {
+        "ID": 12,
+        "Question": "Web Hangisi bir hücrede bulunan organeldir?",
+        "TrueAnswer": "Lizozom",
+        "FalseAnswer1": "DNA",
+        "FalseAnswer2": "RNA"
+    },
+    {
+        "ID": 13,
+        "Question": "Tarihçilerin Kutbu olarak bilinen dünyaca ünlü tarihçimiz kimdir?",
+        "TrueAnswer": "Halil Inalcık",
+        "FalseAnswer1": ";Ilber Ortaylı",
+        "FalseAnswer2": "Mehmet Fuat Köprülü"
+    },
+    {
+        "ID": 14,
+        "Question": "Cristiano Ronaldo daha önce hangi futbol takımında oynamıstır?",
+        "TrueAnswer": "Manchester United",
+        "FalseAnswer1": "Bayern Munich",
+        "FalseAnswer2": "Liverpool"
+
+    }
+]

@@ -1,0 +1,20 @@
+{{ define "New" }}
+  {{ template "Header" }}
+    {{ template "Menu" }}
+
+    <ul><li><p>--------NEW</p></li></ul> 
+
+    <ul>
+
+    <li><a href="#"><p>QUIZ APP New User Page (ADMIN)</p></a></li>
+
+    <form method="POST" action="insert">
+      <li><p><label> Name <br> </label><input type="text" name="name" /></p></li>
+      <li><p><label> Surname <br> </label><input type="text" name="surname" /></p></li>
+      <li><p><input type="submit" value="Save User" /></p></li>
+    </form>
+
+    </ul>
+
+  {{ template "Footer" }}
+{{ end }}

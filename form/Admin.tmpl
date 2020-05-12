@@ -1,0 +1,17 @@
+{{ define "Admin" }}
+  {{ template "Header" }}
+
+        <ul>
+
+        <li><a href="#"><p>QUIZ APP Admin Page</p></a></li>
+
+        <form method="POST" action="adminlogin">
+        <li><p><label> Admin Name <br> </label><input type="text" name="adminname" /></p></li>
+        <li><p><label> Admin Surname <br> </label><input type="text" name="adminsurname" /></p></li>
+        <li><p><input class="inputstyle" type="submit" value="Go!" /></p></li>
+        </form>
+
+        </ul>
+
+  {{ template "Footer" }}
+{{ end }}
